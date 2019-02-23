@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: right arror
+# key: =>
+# group: latex math arrows
+# --
+\Rightarrow
