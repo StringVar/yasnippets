@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: choose value
+# --
+\$\{1:$$\(yas-choose-value '(
+"$1"
+))\}
+$2

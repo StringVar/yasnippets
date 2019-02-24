@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: alist choose value 
+# --
+\$\{1:$$(let ((exp_list '(
+("promt" . "value")
+)))
+(cdr (assoc (yas-choose-value exp_list) exp_list)))\}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: condition - only if cursor is in comment region
+# group: condition
+# --
+# condition: (nth 4 (syntax-ppss))

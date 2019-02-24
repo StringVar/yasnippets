@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: binding
+# key: binding
+# --
+# binding: ${direct keybinding}

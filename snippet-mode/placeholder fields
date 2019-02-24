@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: placeholder fields
+# key: $
+# --
+$\{${1:N}:${2:default value}\}

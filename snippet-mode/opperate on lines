@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: operate on list
+# key: operate
+# --
+\`(let (value)
+(dolist (i (split-string yas-selected-text "\n") value)
+(setq value (concat value (format "* %s\n" i)))))\`
+\`(setq yas-selected-text "")\`

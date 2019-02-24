@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: text transformation
+# contributor: Cameron White <cameron.ag.white@gmail.com>
+# --
+$\{$1:$$\($2\)\}
