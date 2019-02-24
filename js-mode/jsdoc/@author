@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: @author
+# key: @author
+# group: jsdoc
+# condition: (inside-comment-q)
+# --
+@author `user-name` <`user-email`>

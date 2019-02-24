@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: jsdoc /** ... */
+# key: /**
+# group: jsdoc
+# --
+/**
+ * $1${0:`(if yas-selected-text (s-replace "\n" "\n * " yas-selected-text))`}
+ */
+`(setq yas-selected-text "")`

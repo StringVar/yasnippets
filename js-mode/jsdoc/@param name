@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: @param name 
+# key: @param
+# condition: (inside-comment-q)
+# group: jsdoc
+# --
+@param $1

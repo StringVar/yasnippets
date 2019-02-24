@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: @param {type} name - description
+# key: @param
+# condition: (inside-comment-q)
+# group: jsdoc
+# --
+@param ${1:$$(yas-choose-value '(
+""
+"{number}"
+"{string}"
+"{boolean}"
+"{Object}"
+"{number[]}"
+"{string[]}"
+"{boolean[]}"
+"{Object[]}"
+))} $2 - $3

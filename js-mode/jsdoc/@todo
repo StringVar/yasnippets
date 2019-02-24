@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: @todo
+# key: @todo
+# group: jsdoc
+# condition: (inside-comment-q)
+# --
+@todo $1
