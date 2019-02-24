@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cmake setup: -Generator
+# key: cmake
+# --
+mkdir build && cd build && cmake ../ -G \"${1:$$(yas-choose-value '(
+"MSYS Makefiles"
+"MinGW Makefiles"
+"Unix Makefiles"))}\"

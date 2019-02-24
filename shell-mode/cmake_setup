@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cmake basic setup
+# key: cmake
+# --
+mkdir build && cd build && cmake ../

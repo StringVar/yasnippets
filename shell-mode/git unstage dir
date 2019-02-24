@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: git unstage dir
+# key: git
+# --
+git rm --cached -r ${1:dir}
