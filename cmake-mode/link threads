@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: link threads
+# --
+find_package(Threads REQUIRED)
+target_link_libraries($1 ${CMAKE_THREAD_LIBS_INIT})

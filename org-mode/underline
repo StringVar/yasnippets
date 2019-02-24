@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: underline
+# binding: M-o u
+# group: org-mode text formatting
+# --
+_$0$1_

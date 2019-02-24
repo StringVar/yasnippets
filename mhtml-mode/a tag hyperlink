@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hyperlink
+# key: <a
+# --
+ <a href="${1:linkto}">$0${2:link text}</a> 

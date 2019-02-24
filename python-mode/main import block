@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: main import block
+# key: main
+# discription: when you want to be able to import this file to use but also use it directly with system arg then use this block
+# --
+if __name__ == "__main__":

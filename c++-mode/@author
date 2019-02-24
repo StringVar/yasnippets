@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: @author 
+# key: @author
+# group: comments
+# --
+@author `user-name` <`user-email`>

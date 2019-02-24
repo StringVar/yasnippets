@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: startup initial visibility
+# key: #+STARTUP:
+# note: https://orgmode.org/manual/Initial-visibility.html
+# --
+#+STARTUP: ${1:$$(yas-choose-value '(
+"overview"
+"content"
+"showall"
+"showeverything"
+))}

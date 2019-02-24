@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: array symetric comparison
+# --
+for i in range(0,len(${1:array})):
+    for j in range(i+1,len($1)):
+        ${2:compaison_func}(i, j)

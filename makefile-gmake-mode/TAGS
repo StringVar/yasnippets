@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ctags TAGS 
+# key: TAGS
+# expand-env: ((yas-indent-line 'fixed))
+# --
+TAGS: \$(sources)
+	ctags -e -R *.hpp *.cpp *.h .

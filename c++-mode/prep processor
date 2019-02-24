@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: prep processer
+# key: #
+# --
+#${1:$$(yas-choose-value '(
+"include"
+"define"
+"undef"
+"error"
+"if"
+"ifdef"
+"elif"
+"else"
+"endif"
+"pragma"
+"line"
+))}$2

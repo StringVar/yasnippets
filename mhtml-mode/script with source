@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: script w/ source file
+# key: <script
+# group: html elements
+# contributor: Cameron White <cameron.ag.white@gmail.com>
+# --
+<script src=\"${1:$$(file-relative-name (read-file-name "" (buffer-file-name)))}\"></script>

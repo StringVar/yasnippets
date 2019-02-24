@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: src block 
+# key: #+
+# binding: M-+ s
+# group: blocks
+# --
+#+BEGIN_SRC ${1:$$(yas-choose-value org-babel-load-languages)}
+$2$0
+#+END_SRC

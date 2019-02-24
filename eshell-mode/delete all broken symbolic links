@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: delete all broken symbolic links
+# key: find
+# --
+find -L . -name . -o -type d -prune -o -type l -exec rm {} +

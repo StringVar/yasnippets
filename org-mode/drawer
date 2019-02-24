@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: org drawer
+# key: org
+https://orgmode.org/manual/Drawers.html
+# --
+:$1:
+$0
+:END:
