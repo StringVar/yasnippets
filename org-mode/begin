@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: begin custom block
+# key: #+begin
+# group: blocks
+# --
+#+begin_$1
+$0$2
+#+end_$1

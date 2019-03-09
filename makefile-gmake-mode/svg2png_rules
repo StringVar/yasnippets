@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: svg to png converter rule 
+# group: rule template
+# expand-env: ((yas-indent-line 'fixed))
+# --
+# svg to png converter: Renders all .svg files from current dir using inkscape
+svg_files = \$\(shell find . -type f -name '*.svg'\) # list of .svg files
+svg2png_files = \$\(patsubst %.svg, %.png, \$\(svg_files\)\) # .png files from svg files
+svg2png = 'C:/Program Files/Inkscape/inkscape.exe' # converting program
+
+svg: \$\(svg2png_files\);
+
+%.png: %.svg
+	\$\(info converting file "$<" to png:\)
+	\$\(svg2png\) -z '$<' -e '$@'
+
+.PHONY: clean_svg2png
+clean_svg2png:
+	\$\(info ---- cleaning svg2png rendered files ----\)
+	rm \$\(svg2png_files\)

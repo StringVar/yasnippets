@@ -1,0 +1,49 @@
+# -*- mode: snippet -*-
+# name: Program Makefile template
+# group: template
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#===============================================================================
+# General use makefile
+# compiles all source .cpp files in /src directory
+# includes all header(.hpp) files in /include
+# compiles to program file output_file
+
+output_file= $1
+
+default: $(output_file)
+
+sources := $(wildcard ./src/**.cpp)
+dependencies := $(subst .cpp,.d,$(sources))
+objects := $(subst .cpp,.o,$(sources))
+
+
+$(output_file): $(objects)
+	$(CXX) -o $(output_file) $^
+
+
+.PHONY: clean 
+clean:
+	rm -f $(dependencies) $(objects) $(output_file)
+
+# ----
+# C++ Rules
+# object extension :.o
+
+#CXX=gcc
+CXXFLAGS= -I./include
+
+#%.o: %.cpp
+#	$(CXX) -c $(CXXFLAGS) -o $@ $<
+
+# ----
+# Generate dependencies of .cpp files on .hpp files
+ifneq "$(MAKECMDGOALS)" "clean"
+  include $(dependencies)
+endif
+
+%.d: %.cpp
+	$(CXX) $(CFLAGS) $(CXXFLAGS) $(TARGET_ARCH) -M $< |      \
+	sed 's,\\($*\.o\\) *:,\1 $@: ,' > $@.tmp
+	mv $@.tmp $@
+

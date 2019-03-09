@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: begin center 
+# key: #+
+# group: blocks
+# --
+#+name: $1
+#+begin_center
+$0$2
+#+end_center

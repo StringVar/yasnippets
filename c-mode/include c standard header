@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# name: include c standard header
+# key: #include
+# --
+#include <${1:$$(yas-choose-value '(
+"assert"
+"complex"
+"ctype"
+"errno"
+"fenv"
+"float"
+"inttypes"
+"iso646"
+"limits"
+"locale"
+"math"
+"setjmp"
+"signal"
+"stdalign"
+"stdarg"
+"stdatomic"
+"stdbool"
+"stddef"
+"stdint"
+"stdio"
+"stdlib"
+"stdnoreturn"
+"string"
+"string"
+"threads"
+"time"
+"uchar"
+"wchar"
+"wctype"
+))}.h>

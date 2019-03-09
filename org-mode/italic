@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: italic
+# binding: M-o i
+# group: org-mode text formatting
+# --
+/$0$1/

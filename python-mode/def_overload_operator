@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: def overload operator
+# key: def
+# contributor: <cameron.ag.white@gmail.com>
+# discription: 
+# --
+def ${1:$$(let ((exp_list '(
+("+ addition" . "__add__(self, other)")
+("* multiplication" . "__mul__(self, other)")
+("- subtraction" . "__sub__(self, other)")
+("% remainder" . "__mod__(self, other)")
+("/ division" . "__truediv__(self, other)")
+("< less than" . "__lt__(self, other)")
+("<= less than or equal to" . "__le__(self, other)")
+("== equal to" . "__eq__(self, other)")
+("!= not equal to" . "__ne__(self, other)")
+("> greater than" . "__gt__(self, other)")
+(">= greater than or equal to" . "__ge__(self, other)")
+("[index] index operator" . "__getitem__(self, index)")
+("in check membership" . "__contains__(self, value)")
+("len the number of elements" . "__len__(self)")
+("str the string representation" . "__str__(self)")
+)))
+(cdr (assoc (yas-choose-value exp_list) exp_list)))}:
+    $2

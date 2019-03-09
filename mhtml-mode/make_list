@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: list
+# key: list
+# --
+<${1:$$(yas-choose-value '("ul" "li"))}>
+`(let (value)
+(dolist (i (split-string yas-selected-text "\n") value)
+(setq value (concat value (format "<li>%s</li>\n" i)))))`
+</$1>
+`(setq yas-selected-text "")`

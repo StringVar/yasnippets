@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: parentheses
+# key: (
+# --
+\($0$1\)$2

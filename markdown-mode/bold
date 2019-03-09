@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: bold
+# --
+${0:$$(markdown-insert-bold)}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: PHONY
+# key: .PHONY
+# expand-env: ((yas-indent-line 'fixed))
+# --
+.PNONY: $1
+$1: $2
+	$3

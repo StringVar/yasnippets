@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: radio target
+# group: org mode links
+# key: <<<
+# https://orgmode.org/manual/Radio-targets.html#Radio-targets
+# --
+<<<$1>>>

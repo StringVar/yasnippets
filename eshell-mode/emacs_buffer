@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: emacs buffer
+# key: #<
+# for use with eshell piping to a buffer. where $1 is a buffer
+# --
+#<buffer ${1:eshell-output}>$2

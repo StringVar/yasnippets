@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# name: today
+# key: today
+# --
+`(format-time-string "%Y-%m-%d")`$0

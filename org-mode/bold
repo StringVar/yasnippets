@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bold
+# binding: M-o b
+# group: org-mode text formatting
+# --
+=$0$1=

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: truth table 2 variables
+# --
+| P | Q | $1 |
+| T | T |    |
+| T | F |    |
+| F | T |    |
+| F | F |    |
