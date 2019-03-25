@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: integer symbol
 # key: \Z
-# group: latex math
+# group: math
 # --
 \mathbb\{Z\}

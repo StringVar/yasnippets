@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ( inline math 
+# group: math
+# key: \(
+# --
+\\($0$1\\)
