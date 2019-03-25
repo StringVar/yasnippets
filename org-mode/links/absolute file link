@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: absolute file link
+# group: link
+# key: [[
+# --
+[[file:${2:$$(read-file-name "" (buffer-file-name))}][$0${1:DISPLAY_TEXT}]]
