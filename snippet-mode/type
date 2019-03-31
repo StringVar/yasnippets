@@ -1,4 +1,6 @@
 # -*- mode: snippet -*-
 # name: type
+# key: #
+# group: meta data
 # --
 # type: ${1:$$(yas-choose-value '("snippet" "command" ))}

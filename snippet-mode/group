@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: group
-# key: group
+# key: #
+# group: meta data
 # --
 # group: ${snippet menu grouping}

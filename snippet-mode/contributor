@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: contributor
-# key: contributor
+# key: #
+# group: meta data
 # --
 # contributor: `user-name` <`user-email`>

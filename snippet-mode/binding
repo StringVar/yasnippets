@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: binding
-# key: binding
+# key: #
+# group: meta data
 # --
 # binding: ${direct keybinding}
