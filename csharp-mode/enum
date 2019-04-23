@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: enum
+# key: enum
+TODO add \n subsistion with , for text
+# --
+enum $1
+{
+$2=0,
+$0
+};

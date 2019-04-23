@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: basic summary
+# key: ///
+# group: documentation comment
+# --
+/// <summary>
+/// $0$1
+/// </summary>

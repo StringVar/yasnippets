@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: foreach
+# --
+foreach(${1:type} ${2:name} in ${3:collection})
+{
+$0$4
+}

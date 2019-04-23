@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: get set
+# --
+{
+    get
+    {
+        return $1;
+    }
+    set
+    {
+        $1 = value;
+    }
+}
