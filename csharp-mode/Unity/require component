@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Require Component
+# key: [
+# group: Unity
+# --
+[RequireComponent(typeof($1))]

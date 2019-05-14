@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour
+# group: Unity
+# --
+using System.Collections;
+using UnityEngine;
+
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` : MonoBehaviour
+{
+
+// Use this for initialization
+void Start()
+{
+
+}
+
+// Update is called once per frame
+void Update()
+{
+
+}
+
+}

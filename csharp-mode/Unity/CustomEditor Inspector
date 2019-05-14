@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Custom Editor Inspector
+# group: Unity
+# --
+using UnityEditor;
+using System.Collections;
+using UnityEngine;
+
+[CustomEditor(typeof(${1:ScriptName}))]
+public class $1Editor : Editor
+{
+public override void OnInspectorGUI()
+{
+GUILayout.Label ("This is a Label in a Custom Editor");
+
+DrawDefaultInspector();
+}
+}

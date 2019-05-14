@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Create Asset menu
+# group: Unity
+# --
+[CreateAssetMenu(fileName = "$1",menuName = "$2")]
