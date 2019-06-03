@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: log error
+# key: log
+# group: Unity
+# --
+Debug.LogError("$1$0", this);
