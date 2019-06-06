@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: JSX list map
+# JSX doesn't like having normal lists so its much easer to use a map of the
+# elmenets. render: ... <ul>{SomeListmap}</ul>...
+# --
+const $1Listmap = $1.map($2 =>
+        <${3:tag} key={$2.toString()} >{$2}</$3>);
+
+ 

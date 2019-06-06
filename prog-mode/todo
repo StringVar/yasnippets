@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
-# name: todo
+# name: todo comment
+# group: comment
 # --
 `(yas-with-comment "TODO: ")`

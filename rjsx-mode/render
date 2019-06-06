@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: render
+# key: render
+# group: react
+# --
+render(){
+    return ($1$0);
+}

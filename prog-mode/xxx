@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
-# name: xxx
+# name: xxx comment
+# group: comment
 # --
 `(yas-with-comment "XXX: ")`

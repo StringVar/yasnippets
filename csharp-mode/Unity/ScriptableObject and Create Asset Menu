@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Scriptable Object + Create Asset Menu
+# group: Unity
+# --
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "$1", menuName = "$2")]
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` : ScriptableObject
+{
+    public List<Sprite> Sprites;
+}

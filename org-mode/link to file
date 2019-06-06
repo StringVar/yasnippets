@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: link to file (relative link)
+# key: [
+# --
+[[./`(file-relative-name (read-file-name "" (buffer-file-name)))`][${1:display text}]]
