@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: name of all prerequisites newer than the target, separated by spaces
+# key: $
+# group: automatic variables
+# --
+$?

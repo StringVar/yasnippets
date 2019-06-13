@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filenames of all the prerequisites, separated by spaces
+# key: $
+# group: automatic variables
+# --
+$^

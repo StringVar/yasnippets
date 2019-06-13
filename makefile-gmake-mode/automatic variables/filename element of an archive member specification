@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filename element of an archive member specification
+# key: $
+# group: automatic variables
+# --
+$%

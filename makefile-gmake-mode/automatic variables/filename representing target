@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filename representing target
+# key: $
+# group: automatic variables
+# --
+$@

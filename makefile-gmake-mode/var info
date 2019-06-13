@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: var info
+# key: var
+# --
+$(info ${1:var_name}='\$\($1\)')
