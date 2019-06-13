@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: key
+# key: #
+# group: meta data
+# --
+# key: $1
