@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cd to prevous directory
+# key: cd
+# --
+cd -
