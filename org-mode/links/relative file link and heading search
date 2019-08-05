@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: relative org file link + heading search
+# group: link
+# key: [[
+TODO make better by actually searching for a heading in entered file
+# --
+[[file:${2:$$(file-relative-name (read-file-name "" (buffer-file-name)))}::*$3][$0${1:DISPLAY_TEXT}]]

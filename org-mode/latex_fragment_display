@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: latex fragment (displayed equations)
-# key: []
-# --
-\\[ $1$0 \\]

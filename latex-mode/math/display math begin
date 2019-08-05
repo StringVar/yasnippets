@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: \begin{displaymath} display math
+# group: math
+# key: \begin
+# --
+\begin\{displaymath\}$1$0\end\{displaymath\}

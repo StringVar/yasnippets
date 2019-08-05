@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: relative file link + line num
+# group: link
+# key: [[
+# --
+[[file:${2:$$(file-relative-name (read-file-name "" (buffer-file-name)))}::$3][$0${1:DISPLAY_TEXT}]]

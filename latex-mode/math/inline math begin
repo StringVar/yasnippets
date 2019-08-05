@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: \begin{math} inline math
+# group: math
+# key: \begin{math}
+# --
+\begin{math}$1$0\end{math}
