@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shell external link
+# key: [[shell:
+# --
+[[shell:$0$1]]
